@@ -63,14 +63,23 @@ mathematica
 Copy code
 
 Enter temperature: 30
+
 Enter humidity: 77
+
 Enter wind speed: 5.5
+
 Enter precipitation: 28
+
 Enter atmospheric pressure: 1012.69
+
 Enter UV index: 3
+
 Enter visibility: 9
+
 Enter cloud cover (overcast, partly cloudy, clear, cloudy): overcast
+
 Enter season (Winter, Spring, Autumn, Summer): Autumn
+
 Enter location (inland, mountain, coastal): coastal
 
 The script will output the predicted weather type.
