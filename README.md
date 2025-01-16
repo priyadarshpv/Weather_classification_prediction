@@ -1,15 +1,14 @@
-
-#Weather Classification and Prediction
+### Weather Classification and Prediction
 
 This project implements a weather classification and prediction system using various machine learning models, such as K-Nearest Neighbors (KNN), Support Vector Classifier (SVC), and Gaussian Naive Bayes. The dataset used for this project includes weather-related features such as temperature, humidity, wind speed, precipitation, atmospheric pressure, UV index, visibility, cloud cover, season, and location.
 
 
-Project Overview
+# Project Overview
 
 The main objective of this project is to classify the type of weather based on the given features and to provide an interactive prediction function using a trained machine learning model. The prediction is based on user input, where the model forecasts the weather type (e.g., overcast, partly cloudy, clear, etc.) using the provided atmospheric conditions.
 
 
-Key Features
+# Key Features
 
 Data Preprocessing: The data is cleaned by handling missing and duplicate values, and categorical columns are encoded using Label Encoding and OneHotEncoding.
 
@@ -20,7 +19,7 @@ Model Training: Multiple machine learning models (KNN, SVC, Gaussian Naive Bayes
 Interactive Prediction Function: A user-friendly function weatherprediction() allows users to input weather parameters and receive a predicted weather type.
 
 
-Project Workflow
+# Project Workflow
 
 Data Loading: The weather dataset is loaded into a DataFrame using Pandas.
 
@@ -34,12 +33,12 @@ Model Training and Evaluation: Training KNN, SVC, and Gaussian Naive Bayes model
 
 Weather Prediction: An interactive function takes user input and predicts the weather type.
 
-Requirements
+# Requirements
 
 Python 3.7+
 Libraries: pandas, numpy, scikit-learn
 
-How to Use
+# How to Use
 
 Clone the Repository:
 bash
